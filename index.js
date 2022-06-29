@@ -10,4 +10,27 @@ console.log ('Hello, I am a programmer');
 δ. Υπάρχει διαφοροποίηση του ίδιου ονόματος αν είναι γραμμένος με μικρα ή κεφαλαία ή συνδιασμό, π.χ firstname ειναι διαφορετικό από το FirstName
 ε. Δεν πρέπει να ξεκινάνε από αριθμό, π.χ. 1firstName. Θα εμφανίσει Error */
 const mynumber='6995459816';
-alert (mynumber);
+/*this is what we call OBJECT*/
+let person={name:'Dinos', surname:'Maz', age:19};
+console.log(person);
+/*αν τώρα, θέλουμε να αλλάξουμε τις ιδιότητες ονοματος ή επιθετο ή ηλικία αργότερα στο πρόγραμμα, έχει δύο τρόπους*/
+//τρόπος #1. Dot Notation
+person.name='John Wick';
+console.log(person);
+//τρόπος #2. Bracket Notation
+person['name']='Ironman'
+console.log(person);
+/* Παρατήρηση, έχω βάλει επίτηδες 3 φορές το console.log για να δείτε πως πρέπει να μπαίνει μόνο στο τέλος, διότι αλλιώς τυπώνει και τις τρεις αλλαγές και όχι την τελευταία*/
+function greet (){
+  console.log ('Hello')
+}
+greet();
+function greets (namek){
+  console.log ('Hello' + ' '+ namek);
+}
+greets('John');
+function greetss (nameks, surnameks){
+  console.log ('Hello '+nameks+' '+surnameks);
+}
+greetss('John', 'Wick');
+alert('I love JavaScript');
