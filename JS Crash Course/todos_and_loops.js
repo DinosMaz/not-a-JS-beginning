@@ -43,8 +43,16 @@ for(let todo of todos){
 todos.forEach(function(todo){
   console.log(todo)
 });
-//Map
+//Map, didnt get it well this time, still needed somewhere
 const todoText = todos.map(function(todo){
   return todo.text;
 }); 
 console.log(todoText);
+
+//filter is when we filter the results of an Array like isCompleted=true
+const todoCompleted =todos.filter(function(todo){
+  return todo.isCompleted === true;
+}
+);
+console.log(todoCompleted);
+// as you see, we use console.log outside the loop and only in first example it is inside
