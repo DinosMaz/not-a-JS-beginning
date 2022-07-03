@@ -7,3 +7,4 @@ changed the video watching to "Programmimg with Mosh"
 finished this video.
 Made files for each video to keep it all in order.
 now a new one with a crash course by TraversyMedia
+new video from Bro Code (a four hours video tutorial for JS).. and I still do know nothing
