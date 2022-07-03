@@ -38,3 +38,10 @@ var summary = (ding - milt)/pi;
 var quatCircle = pi*ding**sig;
 console.log(summary);
 console.log(quatCircle)
+
+//changing the datatype of a value to another 
+//we have 5 defferent variables (numbers, strings, booleans, null, undefined)
+//var myAge = prompt('What is you age');
+//myAge = Number(myAge);//string(myAge), Boolean(myAge)
+//myAge = myAge+=1;
+//console.log(`HAPPY BIRTHDAY!!!!!! next year you will become ${myAge}`);
