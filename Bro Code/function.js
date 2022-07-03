@@ -14,13 +14,13 @@ sayHello(' idiots!', 51);
 function toCelsius (far){ 
   return (far-32)*(5/9);
 };
-function toFareneit (Cel){
+function toFarenheit (Cel){
   let tempCels = (Cel*9/5) + 32;
   console.log(`my temp in Farenheit is ${tempCels} degrees`)
 };
   var nonSor =toCelsius(100);
   console.log(`my temp is Celsius is ${nonSor} degrees`);
-  toFareneit(100);
+  toFarenheit(100);
 
 //so, one way to do function is to give var a name and out of function callTheFunction, like toFareneit
 //the other way is to return the expression, and after, out of the function declare it to a var and CL the var
