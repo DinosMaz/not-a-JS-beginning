@@ -1,6 +1,7 @@
 /* a function is a block of code designed to perform 
   a particular task/procedure that is defined inside the block.*/
 //When we want it to do sth, we use CALL
+console.log(`--------------FUNCTIONS-------------------------`)
 
 function sayHello(bro, noob){
   console.log(`Hello my students, ${bro}`);

@@ -1,3 +1,5 @@
+console.log(`--------------THE VERY BASICS-------------------------`)
+
 let age = 21; // this is a number variable
 let firstName = 'Dinos'; //this is a string variable
 let lastName = 'Maz';//this is a string variable
@@ -14,6 +16,8 @@ console.log(`are you online; ${online}`);
 
 const h1Text = document.querySelector('h1') //this is a const, sth that doesnt change at all
 console.log(h1Text.innerHTML); // this is a way to call the text from an HTML file
+
+console.log(`--------------SOME ARITHMETICS-------------------------`)
 
 //Arithmetic expressions (+-*/)
 var friends = 3;
