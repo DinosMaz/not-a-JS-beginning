@@ -28,6 +28,8 @@ console.log(`----------------FOR LOOPS------------------------`)
 for (let i=10; i>0; i--){//as long as i>0, do the {} and next do i--
   console.log(i)
 }
+
+// || OR
 o=0;
 for (; o<=10;){
   console.log ("we count to", o)
