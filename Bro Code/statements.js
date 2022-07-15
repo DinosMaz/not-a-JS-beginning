@@ -29,5 +29,5 @@ if (online == true){
 
 let offline = true;
 if (offline){ // cause offline type is boolean(true or false) we can write it this way too
-  console.log(`You are offine, idiot`) 
+  console.log(`You are offline, idiot`) 
 } else { console.log(`You are online, idiot`)}

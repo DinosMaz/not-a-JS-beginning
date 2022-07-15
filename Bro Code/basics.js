@@ -1,18 +1,19 @@
-console.log(`--------------THE VERY BASICS-------------------------`)
+console.log('--------------THE VERY BASICS-------------------------')
 
-let age = 21; // this is a number variable
-let firstName = 'Dinos'; //this is a string variable
-let lastName = 'Maz';//this is a string variable
-let online =true; // This is a boolean variable
-let nullean = null; // This is a null variable
-let idnotfound = undefined; // This is an undefined variable
 
-let fullName = firstName + ' ' +lastName;
+let ageb = 21; // this is a number variable
+let firstNameb = 'Dinos'; //this is a string variable
+let lastNameb = 'Maz';//this is a string variable
+let onlineb =true; // This is a boolean variable
+let nulleanb = null; // This is a null variable
+let idnotfoundb = undefined; // This is an undefined variable
 
-console.log(age);
-console.log(`Your name is ${firstName} ${lastName} and your age is ${age}`);
-console.log(`Your name is ${fullName} and your age is ${age}`);
-console.log(`are you online; ${online}`);
+let fullNameb = firstNameb + ' ' +lastNameb;
+
+console.log(ageb);
+console.log(`Your name is ${firstNameb} ${lastNameb} and your age is ${ageb}`);
+console.log(`Your name is ${fullNameb} and your age is ${ageb}`);
+console.log(`are you online; ${onlineb}`);
 
 const h1Text = document.querySelector('h1') //this is a const, sth that doesnt change at all
 console.log(h1Text.innerHTML); // this is a way to call the text from an HTML file
@@ -24,7 +25,7 @@ var friends = 3;
 friends = friends + 1; // shortcut friends +=1;
 friends = friends - 1; // shortcut friends -=1;
 friends = friends*2; // shortcut friends *=2;
-friends = friends/2; // shortcut friends /=5;
+friends = friends/2; // shortcut friends /=2;
 friends = friends**2; // shortcut **=2; (lvl up in the power of 2)
 var remFriends = friends % 6; // Αφηνει το ακεραιο υπολοιπο της διαιρεσης 10/6=1 και υπόλοιπο 4
 console.log(`There are ${remFriends} people left out of teams`)
