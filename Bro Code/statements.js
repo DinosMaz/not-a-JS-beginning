@@ -35,7 +35,7 @@ if (offline){ // cause offline type is boolean(true or false) we can write it th
 console.log(`--------------SWITCH STATEMENT------------------------`)
 //Switch statement evaluates a value/expression, matches the value to many causes, 
 //moire efficient than many "else if" statement
-var grade = "All";
+var grade = "F";
 
 switch (grade){
   case "A": console.log(`you did great`); break; // must have a break statemnt
@@ -49,3 +49,26 @@ console.log(`--------------LOGICAL CONDITIONS------------------------`)
 // && and (checks if both conditions are true)
 // || or (checks if one of the conditions is true)
 // ! not (reverses boolean value)
+
+var temperature = 31; //Celsius. exapmple for && and
+if (temperature >27){
+  console.log ("It is HOT outside!");
+} else if (temperature>19 && temperature<=27){
+  console.log(`It is WARM outside!`);
+} else {
+  console.log(`It is COLD outside!`)
+};
+
+var hourds = 20; //hours, exampl for || or
+if(hourds<6 || hourds>20){
+  console.log(`It is DARK outside`)
+} else {
+console.log(`It is LIGHT outside`)
+}
+
+var myName =window.prompt(`Enter your name`);//! statement reverses the conditionin ()
+if (!(myName == "")){//so, if name ISNOT empty, log the message
+  console.log("hello", myName) 
+} else {
+  console.log(`You did not enter your name!`)
+}

@@ -17,7 +17,7 @@ var human1 = {
     console.log(`Dinos has passed out`);
   }
 }; 
-console.log(human1.name) //access through dot notatino
+console.log(human1.name) //access through dot notation
 console.log(human1['age']) // access through bracket notation
 human1.drink(); // call the function (the inner text), but if we use
 console.log(human1.drink) //call the function, but with differents on the console log
