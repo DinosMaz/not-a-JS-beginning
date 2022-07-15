@@ -50,3 +50,50 @@ console.log(quatCircle)
 //myAge = Number(myAge);//string(myAge), Boolean(myAge)
 //myAge = myAge+=1;
 //console.log(`HAPPY BIRTHDAY!!!!!! next year you will become ${myAge}`);
+
+console.log(`--------------SOME ARITHMETICS-------------------------`)
+var myNum;
+myNum=Math.round(3.5); //round
+console.log (myNum)
+myNum=Math.floor(3.8); //round to bot
+console.log (myNum)
+myNum=Math.ceil(3.1); //round to top
+console.log (myNum)
+myNum=Math.pow(3,5); // 3*3*3*3*3, 3 to power of 5
+console.log (myNum)
+myNum=Math.sqrt(64);// 8 
+console.log (myNum)
+myNum=Math.abs(-90); // absolute number 
+console.log (myNum)
+myNum=Math.min(3, 5, 7, 2, 9, 1,); 
+console.log (myNum)
+myNum=Math.max(3, 5, 7, 2, 9, 1,); 
+console.log (myNum)
+myNum=Math.PI; 
+console.log (myNum)
+myNum=Math.E 
+console.log (myNum)
+// more do exist, just use . after Math and it gives you the list
+
+//solve the hypotenuse of a right triangle
+var aaa = 3
+var bbb = 4
+ccc = Math.sqrt(Math.pow(aaa, 2) + Math.pow(bbb, 2))
+console.log(`the hypotenus is ${ccc} cm`)
+
+
+console.log(`--------------RANDOM NUMBRS-------------------------`)
+let randNum;
+randNum = Math.random(); // this is random number between 0 and 1
+console.log(randNum);
+randNum = Math.round(Math.random()*6);//random solid number from 0 to 5
+console.log(randNum);
+randNum = Math.round(Math.random()*6)+1;//random solid number from 1 to 6
+console.log(randNum);
+
+//or create a fuction for a random number, why not
+
+function getRandomNum (minn, maxx){
+  return Math.floor(Math.random()*(maxx-minn + 1)+minn)
+}randNum = getRandomNum(11, 99)
+console.log(randNum)
