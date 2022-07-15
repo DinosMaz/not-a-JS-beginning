@@ -31,3 +31,21 @@ let offline = true;
 if (offline){ // cause offline type is boolean(true or false) we can write it this way too
   console.log(`You are offline, idiot`) 
 } else { console.log(`You are online, idiot`)}
+
+console.log(`--------------SWITCH STATEMENT------------------------`)
+//Switch statement evaluates a value/expression, matches the value to many causes, 
+//moire efficient than many "else if" statement
+var grade = "All";
+
+switch (grade){
+  case "A": console.log(`you did great`); break; // must have a break statemnt
+  case "B": console.log(`You did good`); break;
+  case "C": console.log(`You did Ok`); break;
+  case "D": console.log(`You ..... didnt do that well`); break;
+  case "F": console.log(`YOU FAILED!!!!!`); break;
+  default: console.log(`${grade} is not a letter grade`);//dont need break
+}
+console.log(`--------------LOGICAL CONDITIONS------------------------`)
+// && and (checks if both conditions are true)
+// || or (checks if one of the conditions is true)
+// ! not (reverses boolean value)
